@@ -2,4 +2,6 @@ FROM gitpod/workspace-full:latest
 
 USER gitpod
 
-RUN pip3 install tensorflow
+RUN pipenv --three
+
+RUN pipenv install tensorflow
