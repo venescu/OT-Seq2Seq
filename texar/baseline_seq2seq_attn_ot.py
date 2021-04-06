@@ -25,7 +25,7 @@ import os
 from io import open
 import importlib
 import tensorflow as tf
-import texar as tx
+import texar.tf as tx
 from rouge import Rouge
 import OT
 import pdb
