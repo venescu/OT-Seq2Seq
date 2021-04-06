@@ -5,6 +5,7 @@ __pycache__/
 
 # Texar data
 texar/data/*
+*.tgz
 
 # C extensions
 *.so
