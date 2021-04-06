@@ -1,5 +1,5 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
+  - init: pyenv install 3.7.5 && pyenv global 3.7.5 && pip install -r requirements.txt
     command: 'echo "TODO: Replace with command to start project"'
