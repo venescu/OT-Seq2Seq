@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Texar data
+texar/data/*
+
 # C extensions
 *.so
 
