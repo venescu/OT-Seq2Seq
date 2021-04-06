@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 pyenv install 3.7.5 
 pyenv global 3.7.5 
@@ -8,4 +8,6 @@ cd texar
 mkdir data
 cd data
 gdown https://drive.google.com/u/0/uc?id=1-EAFvqsernsh-CMWRvLs1J6XXeEy08JU
+tar -zxvf 2014-01.tgz
+cd ../..
 
