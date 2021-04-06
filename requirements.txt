@@ -3,6 +3,5 @@ tensorflow-probability >= 0.3.0, < 0.8.0
 funcsigs >= 1.0.2
 regex >= 2018.01.10
 sentencepiece >= 0.1.8
-rouge == 0.2.1
 texar
 gdown
