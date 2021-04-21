@@ -1,5 +1,5 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: bash init.sh
+  - begin: bash init.sh
     command: python texar/baseline_seq2seq_attn_ot.py
