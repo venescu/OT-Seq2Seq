@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: bash ./init.sh
-    command: python texar/baseline_seq2seq_attn_ot.py
+    command: pyenv global 3.7.5  && python texar/baseline_seq2seq_attn_ot.py
