@@ -1,4 +1,3 @@
-python
 image:
   file: .gitpod.Dockerfile
 tasks:
